@@ -1,0 +1,14 @@
+.Movie {
+  border: 1px solid #333;
+  background-color: rgb(255, 245, 225);
+  margin: 1rem;
+  padding: 1rem;
+}
+.Header {
+  background-color: rgb(179, 204, 216);
+  padding: 1rem;
+  margin: 0 0 1rem;
+}
+.Header h1 {
+  color: rgb(0, 107, 161);
+}

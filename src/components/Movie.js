@@ -1,3 +1,5 @@
+import "./Movie.css";
+
 function Movie({ details, callbackToDelete }) {
   return (
     <section className='Movie'>
@@ -15,7 +17,7 @@ function Movie({ details, callbackToDelete }) {
 
       <button
         onClick={() => {
-          callbackToDelete(details.id);
+          callbackToDelete(details.title);
         }}
       >
         Delete
